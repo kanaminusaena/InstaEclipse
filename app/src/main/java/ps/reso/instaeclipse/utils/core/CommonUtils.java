@@ -1,7 +1,7 @@
 package ps.reso.instaeclipse.utils.core;
 
 public class CommonUtils {
-    public static final String IG_PACKAGE_NAME = "com.instagram.android";
+    public static final String IG_PACKAGE_NAME = "cc.honista.app";
     public static final String MY_PACKAGE_NAME = "ps.reso.instaeclipse";
 
     /*
