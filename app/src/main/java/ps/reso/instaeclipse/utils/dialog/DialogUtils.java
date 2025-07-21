@@ -257,7 +257,7 @@ public class DialogUtils {
 
     private static void restartInstagram(Context context) {
         try {
-            Intent intent = context.getPackageManager().getLaunchIntentForPackage("com.instagram.android");
+            Intent intent = context.getPackageManager().getLaunchIntentForPackage("cc.honista.app");
             if (intent != null) {
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
