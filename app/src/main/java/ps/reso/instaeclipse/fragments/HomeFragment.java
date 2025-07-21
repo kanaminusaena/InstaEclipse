@@ -63,7 +63,7 @@ public class HomeFragment extends Fragment {
         // Launch Instagram Button Listener
         launchInstagramButton.setOnClickListener(v -> {
             PackageManager pm = requireContext().getPackageManager();
-            Intent launchIntent = pm.getLaunchIntentForPackage("com.instagram.android");
+            Intent launchIntent = pm.getLaunchIntentForPackage("cc.honista.app");
             if (launchIntent != null) {
                 startActivity(launchIntent);
             } else {
